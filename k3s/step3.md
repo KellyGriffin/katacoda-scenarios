@@ -1,17 +1,16 @@
-# Create and access workload
+# Install Rancher
 
-Now we are ready to deploy a workload and access it. The first host has a template file at `/root/rancher-demo.yaml.tpl` which we can use to deploy a web page showing the amount of pods running for a Deployment.
+The first step is installing the Rancher Server. 
 
-`cat /root/rancher-demo.yaml.tpl | sed 's/__HOSTNAME__/[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/g' | k3s kubectl create -f -`{{execute HOST1}}
+In this instance we are going to run a Rancher Server and create a single node child cluster.
 
-Wait for the pods to be running:
+- Host 1 will function as server
 
-`k3s kubectl rollout status deploy/rancher-demo`{{execute HOST1}}
+First, we will start the Rancher Server container.
 
-Now you can access the created workload by clicking on the following link:
+`docker run -d -p 80:80 -p 443:443 rancher/rancher:master`{{execute HOST1}}
 
-http://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
+Wait for a minute and then try to access the host on the following URL:
+https://[[HOST_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com/
 
-After checking it out, scale the deployment to more replicas and see the result:
-
-`k3s kubectl scale deploy/rancher-demo --replicas=5`{{execute HOST1}}
+After this set the password and accept the Rancher Server URL.
