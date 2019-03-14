@@ -15,3 +15,5 @@ http://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
 After checking it out, scale the deployment to more replicas and see the result:
 
 `k3s kubectl scale deploy/rancher-demo --replicas=5`{{execute HOST1}}
+
+You can also use the Rancher Server to scale and view your deployment.  You will need to refresh the above link if you scale down.

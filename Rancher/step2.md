@@ -1,6 +1,6 @@
 # Install k3s
 
-* Download and install k3s on Node-01
+* Download and install k3s on the Master Server
 `curl -sfL https://get.k3s.io | sh -`{{execute HOST1}}
 
 *  You can run the following command to check if the node is in Ready state (you might need to run the command a couple of times, can take up to 30 seconds for the node to register):
