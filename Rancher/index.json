@@ -21,7 +21,7 @@
       }
     ],
     "assets": {
-      "host02": [
+      "host01": [
         {
           "file": "rancher-demo.yaml",
           "target": "~/"
