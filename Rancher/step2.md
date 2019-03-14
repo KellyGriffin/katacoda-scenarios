@@ -14,5 +14,5 @@ As soon as it shows `master` with status `Ready`, you have built your single hos
 
 ```
 NAME     STATUS   ROLES    AGE   VERSION
-master   Ready    <none>   0s    v1.13.3-k3s.6
+master   Ready    <none>   0s    v1.13.xxx
 ```
