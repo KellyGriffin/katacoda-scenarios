@@ -14,10 +14,14 @@
       {
         "title": "Step 3",
         "text": "step3.md"
+      },
+      {
+        "title": "Step 4",
+        "text": "step4.md"
       }
     ],
     "assets": {
-      "host02": [
+      "host2": [
           {"file": "rancher-demo.yaml.tpl", "target": "/root/"}
       ]
   },
