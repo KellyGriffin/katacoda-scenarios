@@ -1,6 +1,6 @@
 {
   "title": "Rancher with K3s",
-  "description": "Getting started with Rancher 2.x with a management server and single node k3s cluster",
+  "description": "Getting started with Rancher 2.x with a management server and single node k3s environment",
   "details": {
     "steps": [
       {
@@ -37,7 +37,7 @@
   },
   "environment": {
     "showdashboard": true,
-    "dashboards": [{"name": "Display 80", "port": 80}, {"name": "Display 8080", "port": 8080}],
+    "dashboards": [{"name": "Rancher", "port": 80}, {"name": "Rancher", "port": 443}],
     "uilayout": "terminal-terminal"
   },
   "backend": {
