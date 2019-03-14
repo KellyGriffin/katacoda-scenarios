@@ -21,10 +21,13 @@
       }
     ],
     "assets": {
-      "host2": [
-          {"file": "rancher-demo.yaml.tpl", "target": "/root/"}
+      "host02": [
+        {
+          "file": "rancher-demo.yaml",
+          "target": "~/"
+        }
       ]
-  },
+    },
     "intro": {
       "text": "intro.md"
     },
