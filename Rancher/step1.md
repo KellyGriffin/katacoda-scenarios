@@ -4,7 +4,7 @@ The first step is installing the Rancher Server.
 
 In this instance we are going to run a Rancher Server and create a single node child cluster.
 
-- Host 1 will function as server
+- Node01 will function as our Rancher Server
 
 First, we will start the Rancher Server container.
 
