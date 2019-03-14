@@ -11,6 +11,6 @@ First, we will start the Rancher Server container.
 `docker run -d -p 80:80 -p 443:443 rancher/rancher:master`{{execute HOST2}}
 
 Wait for a minute and then try to access the host on the following URL:
-https://[[HOST2]]-80-[[KATACODA_HOST]].environments.katacoda.com/
+https://[[HOST2_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
 
 After this set the password and accept the Rancher Server URL.
