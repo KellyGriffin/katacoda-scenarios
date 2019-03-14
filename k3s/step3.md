@@ -8,9 +8,9 @@ In this instance we are going to run a Rancher Server and create a single node c
 
 First, we will start the Rancher Server container.
 
-`docker run -d -p 80:80 -p 443:443 rancher/rancher:master`{{execute HOST2}}
+`docker run -d -p 80:80 -p 8443:8443 rancher/rancher:master`{{execute HOST2}}
 
 Wait for a minute and then try to access the host on the following URL:
-https://[[HOST_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com/
+https://[[HOST_SUBDOMAIN]]-8443-[[KATACODA_HOST]].environments.katacoda.com/
 
 After this set the password and accept the Rancher Server URL.
