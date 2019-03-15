@@ -1,6 +1,6 @@
 {
-  "title": "Rancher with K3s",
-  "description": "Getting started with Rancher 2.x with a management server and single node k3s environment",
+  "title": "Rancher with RKE",
+  "description": "Getting started with Rancher 2.x with a management server and single node RKE environment",
   "details": {
     "steps": [
       {
