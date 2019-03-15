@@ -1,0 +1,7 @@
+nodes:
+    - address: __HOSTNAME__
+      user: ubuntu
+      role:
+        - controlplane
+        - etcd
+        - worker
