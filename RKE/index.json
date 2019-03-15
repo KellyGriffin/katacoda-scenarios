@@ -43,6 +43,6 @@
     "uilayout": "terminal-terminal"
   },
   "backend": {
-    "imageid": "Docker"
+    "imageid": "docker"
   }
 }
