@@ -1,0 +1,17 @@
+page 1 needs updating as the web page takes a while to load
+
+
+re-read everything and test
+
+
+rancher is set to rc11 - check with Dev team on which one to lead with
+
+
+add some additional scale
+
+add some details around changing some code or something that will reflect a redeployment
+
+give instructions for what to do in Rancher and CLI to show how fast everything works, etc
+
+
+add nginxdemo to the deployment to show how a change can occur and a rollback - odysey1977/nginx:v1 and v2 for docker image

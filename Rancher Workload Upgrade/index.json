@@ -1,0 +1,46 @@
+{
+  "title": "Rancher with K3s",
+  "description": "Getting started with Rancher 2.x with a management server and single node k3s environment",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4",
+        "text": "step4.md"
+      }
+    ],
+    "assets": {
+      "host01": [
+        {
+          "file": "rancher-demo.yaml",
+          "target": "~/"
+        }
+      ]
+    },
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "dashboards": [{"name": "Rancher", "port": 80}, {"name": "Rancher", "port": 443}],
+    "uilayout": "terminal-terminal"
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster"
+  }
+}
