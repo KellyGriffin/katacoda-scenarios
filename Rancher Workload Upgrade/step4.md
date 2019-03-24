@@ -30,7 +30,7 @@ Within the page - you will see the upgrade occur.
 
 * Refresh the previous webpage http://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/ to see the result
 
-If you want to rollback to the previous version you can do this a copule of different ways in the Rancher UI - either by editing the Docker Image or by utilising the Rollback feature.  Let's use the Rollback feature:
+If you want to rollback to the previous version you can do this a couple of different ways in the Rancher UI - either by editing the Docker Image or by utilising the Rollback feature.  Let's use the Rollback feature:
 
 * Hover over the Cluster you created on the top menu and click on Default
 
