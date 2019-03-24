@@ -1,6 +1,6 @@
 {
-  "title": "Rancher with K3s",
-  "description": "Getting started with Rancher 2.x with a management server and single node k3s environment",
+  "title": "Rancher, K3S and a Workload Upgrade",
+  "description": "Getting started with Rancher 2.2, a Rancher K3S server and where we will deploy a workload and upgrade the version.",
   "details": {
     "steps": [
       {
