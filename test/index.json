@@ -2,7 +2,7 @@
   "title": "Deploying Applications From Images",
   "description": "",
   "backend": {
-        "imageid": "kubernetes",
+        "imageid": "kubernetes"
   },
   "environment": {
       "showdashboard": true,
