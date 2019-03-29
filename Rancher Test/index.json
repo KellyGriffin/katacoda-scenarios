@@ -1,15 +1,9 @@
 {
-    "icon": "fa-openshift",
     "title": "Deploying Applications From Images",
     "description": "",
     "pathwayTitle": "OpenShift",
     "difficulty": "beginner",
     "time": "10-15 minutes",
-    "backend": {
-        "trainingid": "openshift-3-6",
-        "imageid": "openshift",
-        "port": 8443
-    },
     "environment": {
         "showdashboard": true,
         "dashboard": "Dashboard",
