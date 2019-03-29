@@ -2,7 +2,7 @@
   "title": "Deploying Applications From Images",
   "description": "",
   "backend": {
-        "imageid": "openshift",
+        "imageid": "kubernetes",
   },
   "environment": {
       "showdashboard": true,
