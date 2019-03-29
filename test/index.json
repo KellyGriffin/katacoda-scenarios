@@ -1,9 +1,6 @@
 {
   "title": "Deploying Applications From Images",
   "description": "",
-  "pathwayTitle": "OpenShift",
-  "difficulty": "beginner",
-  "time": "10-15 minutes",
   "environment": {
       "showdashboard": true,
       "dashboard": "Dashboard",
@@ -16,11 +13,6 @@
           "title": "Topic 1 - Creating an Initial Project",
           "text": "step1.md"
       }],
-      "intro": {
-          "courseData": "env-init.sh",
-          "code": "set-env.sh",
-          "text": "intro.md"
-      },
       "finish": {
           "text": "finish.md"
       }
