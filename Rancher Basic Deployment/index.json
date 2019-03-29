@@ -38,7 +38,7 @@
   "environment": {
     "showdashboard": true,
     "dashboards": [{"name": "Rancher", "port": 80}, {"name": "Rancher", "port": 443}],
-    "uilayout": "terminal-terminal"
+    "uilayout": "terminal-iframe"
   },
   "backend": {
     "imageid": "kubernetes-cluster"
