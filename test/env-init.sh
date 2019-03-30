@@ -55,6 +55,7 @@ if [ $HOSTNAME == "node01" ]; then
     APITOKEN=`echo $APIRESPONSE | docker run --rm -i $jqimage -r .token`
     
     # Configure server-url
+    K3S_HOSTNAME=:"http://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/"
     RANCHER_SERVER="https://[[HOST2_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com"
     docker run --rm --net=host $curlimage -s 'https://127.0.0.1/v3/settings/server-url' -H 'content-type: application/json' -H "Authorization: Bearer $APITOKEN" -X PUT --data-binary '{"name":"server-url","value":"'"${RANCHER_SERVER}"'"}' --insecure
     
@@ -83,6 +84,7 @@ if [ $HOSTNAME == "node01" ]; then
     echo "Login to Rancher: $RANCHER_SERVER"
     echo "Username: admin"
     echo "Password: $(cat /root/rancher_password)"
+    echo "The K3s Server is: $K3S_SERVER"
     
 else
     # This is for master
