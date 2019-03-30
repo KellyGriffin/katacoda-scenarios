@@ -84,7 +84,7 @@ if [ $HOSTNAME == "node01" ]; then
     echo "Login to Rancher: $RANCHER_SERVER"
     echo "Username: admin"
     echo "Password: $(cat /root/rancher_password)"
-    echo "The K3s Server is: $K3S_SERVER"
+    echo "The K3s Server is: $K3S_HOSTNAME"
     
 else
     # This is for master
