@@ -2,11 +2,9 @@
   "title": "Scenario for testing things",
   "description": "",
   "backend": {
-        "imageid": "kubernetes"
+        "imageid": "kubernetes-cluster"
   },
   "environment": {
-      "showdashboard": true,
-      "dashboards": [{"name": "Rancher Host", "port": 80}],
       "uilayout": "terminal-terminal",
       "hideintro": false,
       "hidefinish": false
