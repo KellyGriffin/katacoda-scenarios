@@ -8,7 +8,7 @@ In this instance we are going to run a Rancher Server and create a single node c
 
 First, we will start the Rancher Server container.
 
-`docker run -d -p 80:80 -p 443:443 rancher/rancher:latest`{{execute HOST1}}
+`docker run -d -p 80:80 -p 443:443 rancher/rancher:latest`{{execute HOST2}}
 
-`while true; do curl -sLk https://127.0.0.1/ping && break; sleep 2; done`{{execute HOST1}}
+`while true; do curl -sLk https://127.0.0.1/ping && break; sleep 2; done`{{execute HOST2}}
 
