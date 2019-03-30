@@ -13,9 +13,30 @@ YAML files for each scenario
 
 
 Scenario - Whatever is in current Rodeo
+Deploy Rancher
+Deploy Kubernetes (either Import or Custom)
+Deploy workload and expose (Superseb/rancher-demo)
+Ingress to workload / service (need to use DNS of the master")
+Edit the deployment and show upgrade and rollback
+Scaling a workload
+Global App deployment - Wordpress (need to use master IP)
+
+
+
 
 Import cluster with K3S
 Deploy a cluster with RKE
+Deploying Rancher and importing a single node cluster (K3S)
+Deploy an image and expose
+Edit an image via the UI
+Enable Monitoring via the UI
+Scaling and application via CLI and UI
+Deploy application using Helm Chart (Wordpress for example)
+Edit a Container deployed (modify the version number of the image to show an “upgrade”)
+Introduction to Pipeline
+Longhorn integration
+Deploy Kubernetes with RKE
+Autoscaling with HPA
 
 Scenario Details:
 * Outcome
