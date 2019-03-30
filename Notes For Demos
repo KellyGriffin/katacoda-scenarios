@@ -5,9 +5,7 @@ Docker - K3S locally
 Docker - ensure all images are downloaded and able to run locally
 Docker - create a local repo before synching to dockerhub
 
-Image to load - basic HTML (similar to OpenShift)
-Image for scaling - Sebs Image
-Change colouring for nginxdemo to match Marketing as appropriate
+Use Sebs image for demos - looks good and scales
 
 YAML files for each scenario
 

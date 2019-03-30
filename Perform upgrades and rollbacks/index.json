@@ -1,0 +1,32 @@
+{
+  "title": "Application Upgrades",
+  "description": "This Katacoda environment will walk you through how to perform an upgrade and rollback of an Application within Rancher.",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3",
+        "text": "step3.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal-terminal"
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster"
+  }
+}
