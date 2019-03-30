@@ -1,5 +1,5 @@
 {
-  "title": "Deploying Applications From Images",
+  "title": "Scenario for testing things",
   "description": "",
   "backend": {
         "imageid": "kubernetes"
@@ -7,7 +7,7 @@
   "environment": {
       "showdashboard": true,
       "dashboards": [{"name": "Rancher Host", "port": 80}],
-      "uilayout": "terminal-iframe",
+      "uilayout": "terminal-terminal",
       "hideintro": false,
       "hidefinish": false
   },
