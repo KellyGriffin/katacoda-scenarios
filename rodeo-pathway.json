@@ -1,15 +1,15 @@
 {
   "title": "Scenarios for Rancher Rodeos",
   "icon": "Kubernetes",
-  "courses": [
+  "scenarios": [
     {
       "external_link": "https://www.katacoda.com/kellygriffin/courses/rodeos/",
-      "course_id": "Custom",
+      "scenario_id": "Custom",
       "title": "Create a Custom Kubernetes Server"
     },
     {
       "external_link": "https://www.katacoda.com/kellygriffin/courses/rodeos/",
-      "course_id": "Import",
+      "scenario_id": "Import",
       "title": "Import an existing Kubernetes Server"
     }
   ]
