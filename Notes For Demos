@@ -1,0 +1,27 @@
+Katacoda Scenario Requirements
+
+Docker  - rancher locally
+Docker - K3S locally
+Docker - ensure all images are downloaded and able to run locally
+Docker - create a local repo before synching to dockerhub
+
+Image to load - basic HTML (similar to OpenShift)
+Image for scaling - Sebs Image
+Change colouring for nginxdemo to match Marketing as appropriate
+
+YAML files for each scenario
+
+
+Scenario - Whatever is in current Rodeo
+
+Import cluster with K3S
+Deploy a cluster with RKE
+
+Scenario Details:
+* Outcome
+* Core requirements (yamls, images, etc)
+* Step by step instructions
+* screen shots per step as requirement
+* index.json to have 2 terminals and "dashboard" that is the Rancher guest
+
+When deploying an app - to expose to Ingess - you need the "environments.katacoda.com" URL - http://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
