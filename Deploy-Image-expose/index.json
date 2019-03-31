@@ -29,6 +29,14 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "rancher-demo.yaml",
+          "target": "~/"
+        }
+      ]
     }
   },
   "environment": {
