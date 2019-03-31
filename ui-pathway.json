@@ -7,6 +7,11 @@
         "course_id": "template",
         "title": "Scenario with Terminal UI",
         "description": "Katacoda Scenario Example"
+      },
+      {
+        "course_id": "rancher2-k3s-import",
+        "title": "k3s Import with Rancher",
+        "description": "K3S Scenario Example"
       }
     ]
   }
