@@ -18,11 +18,5 @@ Now you can access the created workload by clicking on the following link:
 
 http://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
 
-## Congratulations - you have just deployed a workload into Kubernetes and exposed it.  But let's see what we can do inside the UI with this deployment.
-
-
-
-
-
 
 
