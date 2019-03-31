@@ -11,6 +11,6 @@ Multi-Cluster Applications help reduce the repetition of having to create applic
 Login to the Rancher UI with the username and password you created in step 1 
 https://[[HOST2_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
 
-From the Global view, choose Apps in the navigation bar. Click Launch.
+From the ***Global*** view, choose ***Apps*** in the navigation bar. Click ***Launch***.
 
 Find the application that you want to launch, and then click View Details - For this scenario - Scroll down and click on <kbd> Wordpress </kbd>

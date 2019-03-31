@@ -14,7 +14,7 @@ Under <kbd> Database Settings </kbd> enter a MariaDB Password
 Under <kbd> Services and Load Balancing </kbd> perform the following
 
 - Click on _Specify a hostname to use_
-- Enter [[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
+- Enter the domain name only found here https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
 
 Scroll through and review the rest of the configuration and click <kbd> Launch </kbd> Your Application will now deploy
 
