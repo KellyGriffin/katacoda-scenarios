@@ -1,13 +1,13 @@
 {
   "title": "Just a pathway testing",
   "icon": "fa-kubernetes",
-  "courses": [
+  "scenarios": [
     {
-      "course_id": "Custom",
+      "id": "Custom",
       "title": "Deploy a RKE"
     },
     {
-      "course_id": "Import",
+      "id": "Import",
       "title": "Import a K3S"
     }
   ]
