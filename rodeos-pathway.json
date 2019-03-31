@@ -7,7 +7,7 @@
       "title": "Deploy a RKE"
     },
     {
-      "id": "Import",
+      "id": "Deploy-Image-expose",
       "title": "Import a K3S"
     }
   ]
