@@ -3,11 +3,11 @@
   "icon": "fa-katacoda",
   "courses": [
     {
-      "scenario_id": "Custom",
+      "course_id": "Custom",
       "title": "Create a Custom Kubernetes Server"
     },
     {
-      "scenario_id": "Import",
+      "course_id": "Import",
       "title": "Import an existing Kubernetes Server"
     }
   ]
