@@ -1,7 +1,7 @@
 {
     "title": "Katacoda UI Layouts Example",
     "description": "Example of different Katacoda UI Layouts. Also, an example of creating a Katacoda Course!",
-    "icon": "fa-rancher",
+    "icon": "fa-kubernetes",
     "courses": [
       {
         "course_id": "template",
