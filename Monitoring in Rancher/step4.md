@@ -17,6 +17,6 @@ Pod Metrics: From the Global view, navigate to the project. Select Workloads > W
 Container Metrics: From the Global view, navigate to the project. Select Workloads > Workloads. Find the individual workload and click on its name. Find the individual pod and click on its name. Find the individual container and click on its name. Click Container Metrics.
 ```
 
+_Congratulations - you have just enabled Monitoring from inside the Rancher UI._
 
-##### _Congratulations - you have just enabled Monitoring from inside the Rancher UI._
-##### _Before exiting - feel free to have a look around and see what else you can do.  If you are ready though - feel free to hit continue and move onto another demonstration of Rancher and Kubernetes._
+_Before exiting - feel free to have a look around and see what else you can do.  If you are ready though - feel free to hit continue and move onto another demonstration of Rancher and Kubernetes._

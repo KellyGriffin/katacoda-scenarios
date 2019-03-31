@@ -4,7 +4,7 @@ The first step is installing the Rancher Server.
 
 In this instance we are going to deploy Rancher Server and create a single node K3S based Kubernetes environment.
 
-### Master will function as our Kubernetes Server
+_Master will function as our Kubernetes Server_
 
 The following will download and install Rancher's K3S onto the Master Server.  K3s is Ranchers lightweight Kubernetes server and will be installed with all roles installed (etcd, controller and worker).  For more information on K3S - please click here https://https://k3s.io/
 
@@ -21,9 +21,9 @@ As soon as it shows `master` with status `Ready`, you have built your single hos
 NAME     STATUS   ROLES    AGE   VERSION
 master   Ready    <none>   0s    v1.xx.xx
 ```
-### Node01 will function as our Rancher Server
+_Node01 will function as our Rancher Server_
 
-No we will start the Rancher Server container.
+Now we will start the Rancher Server container.
 
 `docker run -d -p 80:80 -p 443:443 rancher/rancher:latest`{{execute HOST2}}
 

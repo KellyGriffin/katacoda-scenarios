@@ -15,7 +15,7 @@ Click on the Cluster you imported
 
 From the Menu toolbar > click on Tools > Monitoring
 
-Click ``` Enable ``` review the default settings and click ``` Save ```
+Click <kbd> Enable </kbd> review the default settings and click <kbd> Save </kbd>
 
 The necessary Prometheus tools will be loaded and Monitoring will begin.  This process can take up to 5 minutes to begin depending on the load your Cluster configuration.
 

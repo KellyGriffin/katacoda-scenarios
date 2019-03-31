@@ -19,5 +19,6 @@ To scale directly from Kubernetes - you can click below to enable another copies
 
 `k3s kubectl scale deploy/rancher-demo --replicas=5`{{execute HOST1}}
 
-#### _Congratulations - you have just scaled a very simple workload inside the Rancher UI._
-#### _Before exiting - feel free to have a look around and see what else you can do.  If you are ready though - feel free to hit continue and move onto another demonstration of Rancher and Kubernetes._
+_Congratulations - you have just scaled a very simple workload inside the Rancher UI._
+
+_Before exiting - feel free to have a look around and see what else you can do.  If you are ready though - feel free to hit continue and move onto another demonstration of Rancher and Kubernetes._
