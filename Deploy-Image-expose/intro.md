@@ -10,7 +10,7 @@ Development teams love using Rancher as it enables them to take advantage of bot
 
 In keeping with the ethos of freedom, Rancher uses 100% upstream Kubernetes. This enables us to respond to issues quickly and even deploy patches for our customers while Kubernetes merges them into a future release.  We are believers in the open source paradigm. Every one of our products are open source and free to use. There's no community edition with a different feature set than a paid version. From the smallest startup to the largest global organization, everyone gets access to every advantage that comes from using Rancher. 
 
-![Rancher Overview](/scenarios/Deploy-Image-expose/images/platform.png)
+![Rancher Overview](/kellygriffin/scenarios/Deploy-Image-expose/images/platform.png)
 
 You are able to connect and leverage Rancher and the underlying Kubernetes clusters in numerous methods:
 
