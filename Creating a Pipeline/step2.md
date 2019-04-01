@@ -13,4 +13,4 @@ Copy the kubectl command at the bottom of the page and paste it into the Master 
 Once that has been copied and pasted - you can go back to your Rancher Server and click "Done".
 ```
 
-That is it - you have now deployed a Rancher Server, installed K3S and imported it into Rancher.  Now we will configure cluster monitoring as well as view the Grafana Monitoring page.
+That is it - you have now deployed a Rancher Server, installed K3S and imported it into Rancher.  Now we will configure a Pipeline within Rancher.
